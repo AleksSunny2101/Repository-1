@@ -1,0 +1,12 @@
+public class WaistToHipRatioCalculator {
+    public static double calculateWaistToHipRatio(double waistCircumference, double hipCircumference) {
+        return waistCircumference / hipCircumference;
+    }
+
+    public static void main(String[] args) {
+        double waistCircumference = 80; // cm
+        double hipCircumference = 95; // cm
+        double waistToHipRatio = calculateWaistToHipRatio(waistCircumference, hipCircumference);
+        System.out.println("Waist-to-hip ratio: " + waistToHipRatio);
+    }
+}
